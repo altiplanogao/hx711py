@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hx711"
+version = "0.1.0"
+description = "HX711 Python Library for Raspberry Pi"
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = [
+    "RPi.GPIO",
+    "rpi-lgpio"
+]
+
+[tool.setuptools]
+py-modules = ["hx711v0_5_1", "hx711_listenable"]
