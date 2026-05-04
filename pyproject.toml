@@ -14,4 +14,4 @@ dependencies = [
 ]
 
 [tool.setuptools]
-py-modules = ["hx711v0_5_1", "hx711_listenable"]
+py-modules = ["hx711v0_5_1", "hx711_listenable", "stable", "average_calc", "hx711_emulator", "hx711"]
